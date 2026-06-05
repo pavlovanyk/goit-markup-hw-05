@@ -181,6 +181,9 @@
 
 .modal-submit-btn {
   display: block;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   margin: 12px auto 0 auto;
   background-color: #4d5ae5;
   min-width: 169px;
