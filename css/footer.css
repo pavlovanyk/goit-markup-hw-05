@@ -68,9 +68,8 @@
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .footer-social-link:hover,
-.footer-social-link:focus {
+.footer-social-link:focus-visible {
   background-color: #31d0aa;
 }
 
@@ -87,19 +86,11 @@
   width: 264px;
   height: 40px;
 
-  padding-left: 16px;
-
   border: 1px solid #ffffff;
-  border-radius: 4px;
 
-  background-color: transparent;
-
-  color: #ffffff;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-input::placeholder {
@@ -140,5 +131,5 @@
   background-color: #31d0aa;
 }
 .footer-social-thumb {
-  margin-right: 80px;
+  margin-right: 83px;
 }
